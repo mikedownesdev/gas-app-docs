@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: '⛽️ Gas App',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
@@ -15,6 +15,7 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Getting Started', link: '/guides/getting-started/' },
 					],
 				},
 				{
